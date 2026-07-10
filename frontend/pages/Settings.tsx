@@ -266,14 +266,14 @@ export default function Settings() {
               <div>
                 <span className="text-indigo-400 font-semibold block mb-1">2. Query clinical interactions & marketing discussions (latest first):</span>
                 <div className="bg-slate-900 p-2.5 rounded border border-slate-800 text-white flex justify-between items-center select-all">
-                  <span>SELECT id, hcpName, date, type, summary, priority FROM interactions ORDER BY date DESC;</span>
+                  <span>SELECT id, hcp_name, date, type, summary, priority FROM interactions ORDER BY date DESC;</span>
                 </div>
               </div>
 
               <div>
                 <span className="text-indigo-400 font-semibold block mb-1">3. Query follow-up tasks & deadlines:</span>
                 <div className="bg-slate-900 p-2.5 rounded border border-slate-800 text-white flex justify-between items-center select-all">
-                  <span>SELECT hcpName, actionItem, dueDate, status FROM follow_ups;</span>
+                  <span>SELECT hcp_name, action_item, due_date, status FROM follow_ups;</span>
                 </div>
               </div>
 
