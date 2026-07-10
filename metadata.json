@@ -1,0 +1,6 @@
+{
+  "name": "BioPharm Alliance CRM",
+  "description": "An AI-powered pharmaceutical CRM with LangGraph orchestrated tool execution and interactive voice logging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
